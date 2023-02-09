@@ -43,6 +43,8 @@ asteroid_app_qml_module(asteroid-settings
 	qml/WallpaperPage.qml
 	qml/WatchfacePage.qml
 	qml/WatchfaceSelector.qml
+	qml/WiFiConnectionDialog.qml
+	qml/WiFiPage.qml
 	qml/LauncherPage.qml
 	qml/USBPage.qml
 	qml/PowerPage.qml

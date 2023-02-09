@@ -45,6 +45,7 @@ Application {
     Component { id: timezoneLayer;              TimezonePage   { } }
     Component { id: languageLayer;              LanguagePage   { } }
     Component { id: bluetoothLayer;             BluetoothPage  { } }
+    Component { id: wifiLayer;                  WiFiPage       { } }
     Component { id: displayLayer;               DisplayPage    { } }
     Component { id: soundLayer;                 SoundPage      { } }
     Component { id: nightstandLayer;            NightstandPage { } }
@@ -158,6 +159,12 @@ Application {
                     title: qsTrId("id-bluetooth-page")
                     iconName: "ios-bluetooth-outline"
                     onClicked: layerStack.push(bluetoothLayer)
+                }
+                ListItem {
+                    //% "WiFi"
+                    title: qsTrId("id-wifi-page")
+                    iconName: "ios-wifi-outline"
+                    onClicked: layerStack.push(wifiLayer)
                 }
                 ListItem {
                     //% "USB"
