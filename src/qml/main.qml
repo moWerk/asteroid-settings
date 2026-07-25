@@ -165,6 +165,7 @@ Application {
                     title: qsTrId("id-wifi-page")
                     iconName: "ios-wifi-outline"
                     onClicked: layerStack.push(wifiLayer)
+                    visible: DeviceSpecs.hasWlan
                 }
                 ListItem {
                     //% "USB"
